@@ -1,0 +1,103 @@
+.container {
+  max-width: 1300px; }
+
+h1, .h1 {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 28px; }
+  @media (min-width: 992px) {
+    h1, .h1 {
+      font-size: 36px; } }
+
+h2, .h2 {
+  font-size: 24px; }
+  @media (min-width: 992px) {
+    h2, .h2 {
+      font-size: 30px; } }
+
+h3, .h3 {
+  font-size: 20px; }
+  @media (min-width: 992px) {
+    h3, .h3 {
+      font-size: 24px; } }
+
+h4, .h4 {
+  font-size: 15px; }
+  @media (min-width: 992px) {
+    h4, .h4 {
+      font-size: 18px; } }
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+  color: #777; }
+
+.no-pad {
+  padding: 0 !important; }
+
+.btn:focus {
+  outline: none; }
+
+.container {
+  max-width: 1300px; }
+
+h1, .h1 {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 28px; }
+  @media (min-width: 992px) {
+    h1, .h1 {
+      font-size: 36px; } }
+
+h2, .h2 {
+  font-size: 24px; }
+  @media (min-width: 992px) {
+    h2, .h2 {
+      font-size: 30px; } }
+
+h3, .h3 {
+  font-size: 20px; }
+  @media (min-width: 992px) {
+    h3, .h3 {
+      font-size: 24px; } }
+
+h4, .h4 {
+  font-size: 15px; }
+  @media (min-width: 992px) {
+    h4, .h4 {
+      font-size: 18px; } }
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+  color: #777; }
+
+.no-pad {
+  padding: 0 !important; }
+
+.btn:focus {
+  outline: none; }
+
+.wrapper {
+  position: relative; }
+  .wrapper i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    font-size: 80px;
+    font-weight: bolder;
+    z-index: 999;
+    color: #fff; }
+  .wrapper .active {
+    color: red;
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -ms-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -70%);
+    -ms-transform: translate(-50%, -70%);
+    transform: translate(-50%, -70%);
+    -webkit-transition: 1s;
+    transition: 1s; }

@@ -1,0 +1,30 @@
+@import 'mixin.scss';
+
+
+.wrapper {
+	position: relative;
+
+	i {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, 0);
+		font-size: 80px;
+		font-weight: bolder;
+		z-index: 999;
+		color: #fff;
+	}
+
+	.active {
+		color: red;
+		-webkit-transition: opacity 3s ease-in-out;
+		-moz-transition: opacity 3s ease-in-out;
+		-ms-transition: opacity 3s ease-in-out;
+		-o-transition: opacity 3s ease-in-out;
+		 opacity: 0;
+		 transform: translate(-50%, -70%);
+		 transition: 1s;
+	}
+}
+
+
