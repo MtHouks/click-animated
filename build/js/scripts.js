@@ -1,3 +1,6 @@
+$('#arrow_id').hide();
 $('.wrapper').click(function(event) {
-	$('.arrowUP').addClass('active')
+	$('#arrow_id').show('fade');
+	$('#arrow_id').addClass('GoUpBig');
 });
+

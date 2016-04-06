@@ -1,0 +1,29 @@
+.GoUpBig {
+  color: red;
+  animation-duration: 3s;
+  animation-name: GoUpBig;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  /*margin-top: 100%;*/
+  /*animation-direction: alternate;*/
+}
+
+@keyframes GoUpBig {
+  from {
+    /*margin-bottom:100%;*/
+    width:100%
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 0;
+    font-size: 100px;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+
+    }
+
+
+}
+
+
