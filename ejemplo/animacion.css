@@ -1,0 +1,75 @@
+body {
+    background-color: lightblue;
+    overflow: 
+}
+
+
+
+.GoUpBig {
+  animation-duration: 2s;
+  animation-name: GoUpBig;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+  /*animation-direction: alternate;*/
+}
+
+@keyframes GoUpBig {
+  from {
+    /*margin-bottom:100%;*/
+    /*width:100%*/
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 0;
+  	width: 5%; /*Defines the size of the arrow*/
+  	height: 5%;/*Defines the size of the arrow*/
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+
+    }
+}
+
+.fadeOut {
+  animation-duration: 2s;
+  animation-name: fadeOut;
+  animation-iteration-count: 1;
+  /*animation-direction: alternate;*/
+}
+
+@keyframes fadeOut {
+  from {
+    /*margin-bottom:100%;*/
+    /*width:100%*/
+    opacity: 1;
+    
+  }
+  
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+
+    }
+}
+
+/*Solo aparecer*/
+.fadeIn {
+  animation-duration: 2s;
+  animation-name: fadeIn;
+  animation-iteration-count: 1;
+  /*animation-direction: alternate;*/
+}
+
+@keyframes fadeIn {
+  from {
+    /*margin-bottom:100%;*/
+    /*width:100%*/
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+
+    }
+}

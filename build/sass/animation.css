@@ -1,8 +1,14 @@
+.img-place{
+  position:absolute; 
+  top:250px; 
+  left:20px;
+}
+
 .GoUpBig {
   color: red;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-name: GoUpBig;
-  animation-iteration-count: 1;
+  animation-iteration-count: 3;
   animation-fill-mode: forwards;
   /*margin-top: 100%;*/
   /*animation-direction: alternate;*/
