@@ -1,21 +1,63 @@
 .GoUpBig {
   color: red;
-  animation-duration: 0.33s;
+  position: absolute;
+  animation-duration: 2s;
   animation-name: GoUpBig;
-  animation-iteration-count: 4;
+  animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
 @keyframes GoUpBig {
   from {
-    width:100%
     opacity: 1;
   }
   to {
     opacity: 0;
-    font-size: 50px;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
+    font-size: 125px;
+    -webkit-transform: translate3d(0, -250%, 0);
+    transform: translate3d(0, -250%, 0);
+    }
+}
+
+.GoUpMedium {
+  color: red;
+  position: absolute;
+  animation-duration: 2s;
+  animation-name: GoUpMedium;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes GoUpMedium {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    font-size: 100px;
+    -webkit-transform: translate3d(0, -245%, 0);
+    transform: translate3d(0, -245%, 0);
+    }
+}
+
+.GoUpSmall {
+  position: absolute;
+  color: red;
+  animation-duration: 2s;
+  animation-name: GoUpSmall;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes GoUpSmall {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    font-size: 75px;
+    -webkit-transform: translate3d(0, -235%, 0);
+    transform: translate3d(0, -235%, 0);
     }
 }
 
